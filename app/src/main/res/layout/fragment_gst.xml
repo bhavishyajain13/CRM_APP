@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/lightbg"
+        android:orientation="vertical"
+        tools:context=".activty_classes.packfrag">
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:text="GST Master"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/caveo"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"
+            android:text="Use the below search field:"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/caveo"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/gstper"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.5"
+                android:background="@drawable/custom_edittext"
+                android:drawableLeft="@drawable/gst_icon"
+                android:drawablePadding="9dp"
+                android:hint="Enter new GST"
+                android:inputType="number"
+                android:padding="10dp"
+                android:textColor="@color/caveo"
+                android:textColorHint="@color/caveo" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/addnewgst"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/gradcav"
+                android:hint="ADD"
+                android:textSize="18sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/searchnewgst"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/gradcav"
+                android:hint="Search"
+                android:textSize="18sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/gstlv1"
+                android:textStyle="bold"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="S.No"
+                android:textAlignment="center" />
+
+
+            <TextView
+                android:id="@+id/gstlv2"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:layout_width="0dp"
+                android:gravity="center"
+                android:layout_height="30dp"
+                android:text="GST Percentage"
+                android:textAlignment="center" />
+        </LinearLayout>
+        <ListView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/lv_gst"/>
+    </LinearLayout>
+
+
+</RelativeLayout>
+

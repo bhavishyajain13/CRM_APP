@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activty_classes.leadfrag"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/lightbg"
+    android:orientation="vertical">
+
+
+
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="14dp"
+        android:text="Lead Page"
+        android:textColor="@color/caveo"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:text="Use the below search field:"
+            android:textColor="@color/caveo"
+            android:textSize="15sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/open_new_lead"
+            android:textColorHint="@color/caveo2"
+            android:layout_gravity="end"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textColor="@color/white"
+            android:hint="ADD +"
+            android:background="@drawable/gradcav"
+            android:textSize="15sp" />
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/lead_search_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.5"
+                android:background="@drawable/custom_edittext"
+                android:drawableLeft="@drawable/leads_icon"
+                android:drawablePadding="9dp"
+                android:hint="Enter Lead Name"
+                android:inputType="text"
+                android:padding="10dp"
+                android:textColor="@color/caveo"
+                android:textColorHint="@color/caveo" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/lead_search_button"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/gradcav"
+                android:hint="Search"
+                android:textColorHint="@color/caveo"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.75"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center"
+            android:gravity="left"
+            android:text="Lead Owner: "
+            android:textColor="@color/caveo"
+            android:textSize="15sp" />
+
+        <Spinner
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/lead_own_search"
+            android:layout_gravity="center"
+            android:background="@drawable/custom_edittext"
+            android:textColorHint="@color/caveo"
+            android:textAlignment="center"
+            android:layout_height="40dp"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.75"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center"
+            android:gravity="left"
+            android:text="Lead Status: "
+            android:textColor="@color/caveo"
+            android:textSize="15sp" />
+
+        <Spinner
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/lead_stat_search"
+            android:layout_gravity="center"
+            android:background="@drawable/custom_edittext"
+            android:textColorHint="@color/caveo"
+            android:textAlignment="center"
+            android:layout_height="40dp"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/sno_lead"
+            android:textStyle="bold"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:layout_weight="0.4"
+            android:text="S.No"
+            android:textAlignment="center" />
+
+
+        <TextView
+            android:id="@+id/id_lead"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:layout_height="30dp"
+            android:textStyle="bold"
+            android:text="Lead ID"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/company_lead"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:layout_height="30dp"
+            android:text="Lead Name"
+            android:textAlignment="center" />\
+
+        <TextView
+            android:id="@+id/status_lead"
+            android:layout_weight="0.8"
+            android:textStyle="bold"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:layout_height="30dp"
+            android:text="Status"
+            android:textAlignment="center" />
+    </LinearLayout>
+    <ListView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/lv_lead">
+    </ListView>
+
+
+
+</LinearLayout>

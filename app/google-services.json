@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "483978517084",
+    "project_id": "caveo-crm-db",
+    "storage_bucket": "caveo-crm-db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:483978517084:android:955c6d8a6a86d17bd22499",
+        "android_client_info": {
+          "package_name": "com.example.crm_loginpage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "483978517084-2i2ki35j3l4rue3pdgchj9vimt2dkhqj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2RHs2vAI7mMaywldU_K30gw_j90XiTGo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "483978517084-2i2ki35j3l4rue3pdgchj9vimt2dkhqj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

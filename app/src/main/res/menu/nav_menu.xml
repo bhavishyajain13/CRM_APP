@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/master_opt"
+            android:icon="@drawable/dropdwn_icon"
+            android:title="Master Sheets" />
+
+        <item
+            android:id="@+id/nav_packu"
+            android:icon="@drawable/packu_icon"
+            android:title="Pack-Unit" />
+
+        <item
+            android:id="@+id/nav_gst"
+            android:icon="@drawable/gst_icon"
+            android:title="GST page" />
+
+
+        <item
+            android:id="@+id/nav_hsn"
+            android:icon="@drawable/hsn_icon"
+            android:title="HSN page" />
+
+
+
+
+        <item
+            android:id="@+id/nav_prod"
+            android:icon="@drawable/prod_icon"
+            android:title="Product page" />
+
+
+        <item
+            android:id="@+id/sales"
+            android:icon="@drawable/dropdwn_icon"
+            android:title="Sales" />
+
+
+
+        <item
+            android:id="@+id/nav_lead"
+            android:icon="@drawable/leads_icon"
+            android:title="Leads page" />
+
+        <item
+            android:id="@+id/nav_customer"
+            android:icon="@drawable/customer_icon"
+            android:title="Customers" />
+
+        <item
+            android:id="@+id/nav_opp"
+            android:icon="@drawable/opp_icon"
+            android:title="Opportunity" />
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_icon"
+            android:title="Home" />
+
+
+        <item
+            android:id="@+id/nav_abt"
+            android:icon="@drawable/info_icon"
+            android:title="About" />
+
+        <item
+
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout_icon"
+            android:title="Logout" />
+
+
+    </group>
+
+
+</menu>
+
+
+    <!--    <?xml version="1.0" encoding="utf-8"?>-->
+    <!--<menu xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--tools:showIn="navigation_view">-->
+
+
+    <!--<group android:checkableBehavior="single">-->
+
+    <!--    <item-->
+    <!--        android:id="@+id/nav_home"-->
+    <!--        android:icon="@drawable/home_icon"-->
+    <!--        android:title="Home" />-->
+
+    <!--    <item-->
+    <!--        android:title="Hello">-->
+    <!--        <menu>-->
+    <!--            <group>-->
+
+
+    <!--            </group>-->
+
+    <!--        </menu>-->
+
+
+    <!--    </item>-->
+
+    <!--    <item-->
+    <!--        android:id="@+id/nav_packu"-->
+    <!--        android:icon="@drawable/packu_icon"-->
+    <!--        android:title="Pack-Unit" />-->
+
+
+    <!--    <item-->
+    <!--        android:id="@+id/nav_gst"-->
+    <!--        android:icon="@drawable/packu_icon"-->
+    <!--        android:title="GST page" />-->
+
+    <!--    <item-->
+    <!--        android:id="@+id/nav_hsn"-->
+    <!--        android:icon="@drawable/packu_icon"-->
+    <!--        android:title="HSN page" />-->
+
+    <!--    <item-->
+    <!--        android:id="@+id/nav_prod"-->
+    <!--        android:icon="@drawable/packu_icon"-->
+    <!--        android:title="Product page" />-->
+
+
+    <!--    <item-->
+    <!--        android:id="@+id/nav_lead"-->
+    <!--        android:icon="@drawable/packu_icon"-->
+    <!--        android:title="Leads page" />-->
+
+    <!--    <item-->
+    <!--        android:id="@+id/nav_customer"-->
+    <!--        android:icon="@drawable/person_icon"-->
+    <!--        android:title="Customers" />-->
+
+    <!--    <item-->
+    <!--        android:id="@+id/nav_abt"-->
+    <!--        android:icon="@drawable/info_icon"-->
+    <!--        android:title="About" />-->
+
+    <!--    <item-->
+    <!--        android:id="@+id/nav_logout"-->
+    <!--        android:icon="@drawable/logout_icon"-->
+    <!--        android:title="Logout" />-->
+    <!--</group>-->
+
+
+    <!--</menu>-->

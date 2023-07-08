@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/lightbg"
+        android:orientation="vertical"
+        tools:context=".activty_classes.hsnfrag">
+
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:text="HSN Master"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/caveo"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"
+            android:text="Use the below search field:"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/caveo"
+            android:textSize="15sp" />
+<!--hsn/ desc/gst-->
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+            <Spinner
+
+
+
+                android:id="@+id/spinner_hsn"
+                android:layout_width="100dp"
+                android:drawableLeft="@drawable/packu_icon"
+                android:layout_height="match_parent"
+                android:layout_marginRight="5dp"
+                android:textAlignment="center"
+                android:background="@drawable/gradcav"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/hsncode"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@drawable/custom_edittext"
+                android:drawableLeft="@drawable/hsn_icon"
+                android:drawablePadding="9dp"
+                android:hint="Enter HSN"
+                android:inputType="text"
+                android:padding="10dp"
+                android:textColor="@color/caveo"
+                android:textColorHint="@color/caveo" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/addnew_hsn"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/gradcav"
+                android:hint="ADD"
+                android:textSize="18sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/search_hsn"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/gradcav"
+                android:hint="Search"
+                android:textSize="18sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/hsn_lv1"
+                android:textStyle="bold"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="S.No"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/hsn_lv2"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:layout_width="0dp"
+                android:gravity="center"
+                android:layout_height="30dp"
+                android:text="HSN"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/hsn_lv3"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:layout_width="0dp"
+                android:gravity="center"
+                android:layout_height="30dp"
+                android:text="GST"
+                android:textAlignment="center" />
+        </LinearLayout>
+        <ListView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/lv_hsn"/>
+    </LinearLayout>
+
+
+</RelativeLayout>
+
